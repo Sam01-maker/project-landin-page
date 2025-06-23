@@ -12,6 +12,7 @@ body{
     
 }
 
+/* Ajustes del Header-------------------------------------------------- */
 .header-container{
     background-color:#1F2937;
 }
@@ -51,13 +52,16 @@ a{
 
 }
 
-
+/* Final Justes del Heaer */
 
 
 .main-container{
     order: 2;
 
 }
+
+
+/* Estilos Section 1-------------------------- */
 
 .section1-container{
     background-color: #1F2937;
@@ -66,7 +70,7 @@ a{
 .section1{
     width: 80%;
     display: flex;
-    padding: 25 0;
+    padding: 50 0;
     gap: 40px;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -86,14 +90,10 @@ a{
 .image-section1{
     justify-content: flex-end;
     padding: 15 0;
-    width: 50px;
+    width: 500px;
     flex: 1;
     display: flex;
-    width: 400px;
-    max-height: 300px;
     margin-bottom: 50px;
-    
-    
 }
 
 .image-section1 img{
@@ -127,6 +127,12 @@ h1{
     
 }
 
+/* Final de Estilos Section 1-------------------------- */
+
+
+
+/* Estilos Section 2------------------------------------ */
+
 .section2-container{
 background-color:#ffffff;
 
@@ -137,7 +143,7 @@ background-color:#ffffff;
 .section2{
   margin: 0 auto;
   width: 80%;
-  padding: 25px 0;
+  padding: 50px 0;
   text-align: center;
 
 }
@@ -152,6 +158,7 @@ background-color:#ffffff;
  display: flex;
  flex-direction: row;
  justify-content: center;
+ padding: 25px 0;
  flex-wrap: wrap;
  gap: 40px;
 
@@ -170,11 +177,13 @@ background-color:#ffffff;
   
 }
 
-img{
+.card img{
     flex:1;
     border:5px solid #3882f6;
     border-radius: 10px;
 }
+
+/* Final de Estilos Section 2------------------------------------ */
 
 
 
