@@ -187,6 +187,39 @@ background-color:#ffffff;
 
 
 
+/* Estilos Section 3 */
+
+.section3{
+    background-color: #e5e7eb;
+    padding: 70px 0;
+}
+
+.section3-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.frase{
+    font-size: 30px;
+    font-family: "light italic", sans-serif;
+    font-style: italic;
+    width: 80%;
+    color: #1f2937;
+    margin: 0 auto 10px auto;
+
+}
+
+.cita{
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+
+}
+
+
+
+
 .footer{
     order: 3;
 
